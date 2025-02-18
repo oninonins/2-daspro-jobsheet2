@@ -1,4 +1,4 @@
-class Mahasiswa05 {
+class Mahasiswa05  {
     //atiribut
     String nama;
     String nim;
@@ -11,6 +11,18 @@ class Mahasiswa05 {
         System.out.println("Kelas: " + kelas);
         System.out.println("IPK: " + ipk);
     }
+
+
+    public Mahasiswa05() {
+    }
+
+    public Mahasiswa05(String nm, String nim, String kls, double ipk)  {
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
+    }
+
 
     void ubahKelas(String kelasBaru) {
         kelas = kelasBaru;

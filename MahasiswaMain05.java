@@ -13,5 +13,9 @@ public class MahasiswaMain05 {
         mhs1.ubahKelas("TI 1E");
         mhs1.updateIpk(3.75);
         mhs1.tampilkanInformasi();
+
+       Mahasiswa05 mhs2 = new Mahasiswa05("Nino","54366633","TI 1F", 3.25);
+       mhs2.updateIpk(3.30);
+         mhs2.tampilkanInformasi();
     }
 }
