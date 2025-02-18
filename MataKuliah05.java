@@ -5,13 +5,21 @@ class MataKuliah05 {
     int sks;
     int jumlahJam;
 
-
-
     void tampilkanInformasi() {
         System.out.println("Kode MK: " + kodeMK);
         System.out.println("Nama: " + nama);
         System.out.println("SKS: " + sks);
         System.out.println("Jumlah Jam: " + jumlahJam);
+    }
+
+    public MataKuliah05() {
+    }
+
+    public MataKuliah05(String kode, String nm, int sksMK, int jam) {
+        kodeMK = kode;
+        nama = nm;
+        sks = sksMK;
+        jumlahJam = jam;
     }
 
     void ubahSKS(int sksBaru) {

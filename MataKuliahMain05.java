@@ -14,6 +14,10 @@ public class MataKuliahMain05 {
         mk1.tambahJam(2);
         mk1.kurangiJam(3);
         mk1.tampilkanInformasi();
+
+
+        MataKuliah05 mk2 = new MataKuliah05("MK002", "Pemrograman Web", 3, 2);
+        mk2.tampilkanInformasi();
     }
 
 }
